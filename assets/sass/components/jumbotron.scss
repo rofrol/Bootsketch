@@ -17,6 +17,6 @@ category: Components - Jumbotron
 */
 
 .jumbotron {
-  @include light-hatching();
+  @include dark-hatching();
   border: 1px solid $dust;
 }
