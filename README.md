@@ -2,7 +2,7 @@
 
 Bootsketch is a little [Bootstrap](https://github.com/twbs/bootstrap-sass) theme for wireframing web project. Unlike the Bootstrap base theme, Bootsketch provide a sketch render to remove all "design feeling" when we present it to client or during user test.
 
-**[Demo](http://yago.github.io/Bootsketch/)**
+**[Demo](https://cdn.rawgit.com/rofrol/Bootsketch-build/master/index.html)**
 
 ## Usage
 
