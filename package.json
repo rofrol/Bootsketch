@@ -1,25 +1,26 @@
 {
-  "name": "Wirestrap",
+  "name": "Wirestrap-RF",
   "version": "1.0.0",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "bash scripts/dev.sh"
   },
   "author": "Yann Gouffon",
+  "contributors": [{
+    "name": "Roman Fro³ow",
+    "email": "rofrol@gmail.com"
+  }],
   "license": "MIT",
   "devDependencies": {
-    "gulp-util": "~2.2.14",
-    "gulp": "~3.6.2",
-    "gulp-shell": "~0.2.5",
-    "gulp-rename": "~1.2.0",
-    "gulp-concat": "~2.2.0",
-    "jshint-stylish": "~0.2.0",
-    "gulp-clean": "~0.2.4",
-    "gulp-minify-css": "~0.3.4",
-    "gulp-ruby-sass": "~0.5.0",
-    "gulp-uglify": "~0.3.0",
-    "gulp-autoprefixer": "0.0.7",
-    "gulp-notify": "~1.2.5",
-    "gulp-jshint": "~1.6.1",
-    "browser-sync": "~0.9.1"
+    "autoprefixer": "^6.0.3",
+    "bower": "^1.5.2",
+    "hologram": "0.0.1",
+    "http-server": "^0.8.4",
+    "node-sass": "^3.3.3",
+    "parallelshell": "^2.0.0",
+    "postcss-cli": "^2.1.0",
+    "uglify-js": "^2.4.24",
+    "watch": "^0.16.0",
+    "cssnano": "^3.1.0"
   }
 }
